@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Store</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="navbar">
+    <h2 style="color:#38bdf8;">🛒 ThiraMart</h2>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="pages/login.html">Login</a>
+      <a href="pages/register.html">Register</a>
+      <a href="pages/dashboard.html">Dashboard</a>
+      <a href="pages/cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+<section class="hero">
+  <h1>Shopping Experience</h1>
+  <p>Best deals. Best products. Best prices.</p>
+</section>
+
+<div class="top-bar">
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search products...">
+  </div>
+
+  <div class="filter-box">
+    <select id="categoryFilter">
+  <option value="all">All Categories</option>
+  <option value="shoes">Shoes</option>
+  <option value="watch">Watches</option>
+  <option value="electronics">Electronics</option>
+  <option value="bags">Bags</option>
+  <option value="accessories">Accessories</option>
+</select>
+  </div>
+</div>
+
+<section class="product-grid" id="product-list"></section>
+
+<section class="products">
+  <div id="product-list" class="product-grid"></div>
+</section>
+
+  <!-- FOOTER -->
+<footer class="dashboard-footer">
+  <p>
+    <div class="socials">
+
+          <a href="https://github.com/spraneethreddy06">
+            <img
+              src="./assets/github.png"
+              alt="GitHub"
+            >
+          </a>
+
+          <a href="https://www.linkedin.com/in/sudini-praneeth-reddy-48595340a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn"
+            >
+          </a>
+
+          <a href="https://www.instagram.com/sudinipraneethreddy?utm_source=qr&igsh=MTFpbW93Y3Blajlqaw==">
+            <img
+              src="./assets/instagram.png"
+              alt="Instagram"
+            >
+          </a>
+
+          <a href="mailto:spraneethreddychintu@gmail.com">
+            <img
+              src="./assets/email.png"
+              alt="Email"
+            >
+          </a>
+
+        </div>
+    © 2026 ThiraMart. Built with ❤️ by Praneeth
+  </p>
+</footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
