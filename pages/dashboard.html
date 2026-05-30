@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+
+<body>
+<div class="navbar">
+  <div class="nav-left">
+    <h2 style="color:#38bdf8;">🛒 ThiraMart</h2>
+  </div>
+
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../pages/cart.html">Cart</a>
+    <a href="../pages/dashboard.html">Dashboard</a>
+    <a href="../pages/login.html">Login</a>
+    <a href="cart.html">Cart</a>
+    <button onclick="logout()">Logout</button>
+  </nav>
+</div>
+
+
+<div class="dashboard">
+
+  <h2 id="welcome"></h2>
+
+  <div id="admin-section" class="card">
+    <h3>⚙ Admin Panel</h3>
+    <p>Manage products, orders, users (UI simulation)</p>
+  </div>
+
+  <div id="user-section" class="card">
+    <h3>🛍 Your Orders</h3>
+    <div id="orders"></div>
+  </div>
+
+
+</section>
+
+<script src="../js/dashboard.js"></script>
+
+</body>
+</html>
