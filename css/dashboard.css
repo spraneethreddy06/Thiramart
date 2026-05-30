@@ -1,0 +1,46 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  padding: 15px;
+}
+
+.navbar a, .navbar button {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+#admin-section, #user-section {
+  background: white;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.dashboard-footer {
+  text-align: center;
+  padding: 15px;
+  background: #0f172a;
+  color: white;
+  margin-top: 40px;
+  font-size: 14px;
+  animation: fadeIn 0.8s ease;
+}
+
+.dashboard-footer p {
+  opacity: 0.9;
+}

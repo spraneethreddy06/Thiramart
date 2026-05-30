@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  animation: bgFade 1s ease-in;
+}
+
+/* AUTH CARD */
+.auth-box {
+  width: 350px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  color: white;
+  text-align: center;
+  animation: slideUp 0.6s ease;
+}
+
+.auth-box h2 {
+  margin-bottom: 20px;
+}
+
+/* INPUTS */
+.auth-box input,
+.auth-box select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+/* BUTTON */
+.auth-box button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-box button:hover {
+  transform: scale(1.05);
+}
+
+/* LINKS */
+.auth-box a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+/* ANIMATIONS */
+@keyframes slideUp {
+  from { transform: translateY(40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes bgFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
